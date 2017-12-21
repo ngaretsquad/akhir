@@ -17,7 +17,7 @@ while (pilihan<4) :
 		jarak=int(input("masukan jarak antar kota : " ))
 		kecepatan=int(input("kecepatan rata-rata kendaraan : "))
 		waktutempuh=jarak/kecepatan
-		print("Waktu Yang Anda Tempuh : %.2f"%(waktutempuh),"Jam")
+		print("Waktu Yang Anda Tempuh : %.1f"%(waktutempuh),"Jam")
 		print("=====================================================\n")
 	elif (pilihan==2):
 		kotaasal=str(input("Masukan nama kota asal : "))
